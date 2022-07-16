@@ -17,6 +17,9 @@ function setCanvasSize() {
   canvasEl.style.width = window.innerWidth + "px";
   canvasEl.style.height = window.innerHeight + "px";
   canvasEl.getContext("2d").scale(2, 2);
+
+  document.body.style.width = window.innerWidth + "px";
+  document.body.style.height = window.innerHeight + "px";
 }
 
 function updateCoords(e) {
@@ -137,12 +140,12 @@ var centerY = window.innerHeight / 2;
 function autoClick() {
   if (window.human) return;
   animateParticules(
-    anime.random(centerX - 50, centerX + 50),
-    anime.random(centerY - 50, centerY + 50)
+    anime.random(centerX - 560, centerX + 560),
+    anime.random(centerY - 220, centerY + 220)
   );
-  anime({ duration: 200 }).finished.then(autoClick);
+  anime({ duration: 300 }).finished.then(autoClick);
 }
 
-//autoClick();
+autoClick();
 setCanvasSize();
 window.addEventListener("resize", setCanvasSize, false);

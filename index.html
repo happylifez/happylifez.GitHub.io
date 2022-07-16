@@ -4,15 +4,83 @@
 <head>
     <meta charset="utf-8">
     <title>阿啾美女天天开心</title>
+    <link rel="shortcut icon" href="img\Birthday-Cake.png">
     <link href="https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.1/animate.compat.min.css" rel="stylesheet">
-
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js\firework.js"></script>
-    <script src="js\index.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <style>
+        #mainContent {
+            width: 100%;
+            height: 100%;
+        }
+
+        .mainContent1 .dialogueClass {
+            left: 50%;
+            top: 20%;
+            padding: 20px;
+            width: 50%;
+            max-width: 400px;
+        }
+
+        .mainContent1 #mainImg {
+            left: 5%;
+            top: 30%;
+        }
+
+        .mainContent2 .dialogueClass {
+            left: 50%;
+            top: 20%;
+            padding: 20px;
+            width: 50%;
+            max-width: 400px;
+        }
+
+        .mainContent2 #mainImg {
+            left: 5%;
+            top: 30%;
+        }
+
+        .dialogueClass {
+            font-size: 2em;
+            position: absolute;
+            background: #8a2be2eb;
+            color: #fff;
+            border-radius: 20px;
+            z-index: 500;
+            box-shadow: 3px 3px 8px 0 #8a2be2eb;
+        }
+
+        .dialogueClass::before {
+            content: '';
+            position: absolute;
+            border: 1.2em solid;
+            border-color: transparent #8a2be2eb transparent transparent;
+            left: -2.4em;
+            top: 30%;
+            z-index: 801;
+        }
+
+
+        #mainImg {
+            position: relative;
+            mix-blend-mode: multiply;
+            width: 50%;
+        }
+    </style>
 </head>
 
-<body>
-    <canvas class="fireworks"></canvas>
+<body style="background-color: #e6e7dbc9;max-width: 1200px;">
+    <canvas class="fireworks" style="position: absolute;z-index: 803;"></canvas>
+
+    <div id="mainContent" class="mainContent1 ">
+        <div id="dialogue" class="dialogueClass">
+            <p id="dialogueContent">🎂🎂🎂🎂🎂🎂<br>多元宇宙最靓阿啾<br>生日快乐！！！</p>
+        </div>
+        <img id="mainImg" class="anim" src="img\yeah_01.jpg" />
+    </div>
 </body>
+
+<script src="js\firework.js"></script>
+<script src="js\index.js"></script>
 
 </html>
