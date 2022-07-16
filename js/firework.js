@@ -13,6 +13,24 @@ function detectOrient() {
   }
 }
 window.addEventListener("orientationchange", detectOrient);
+function preload() {
+  if (document.images) {
+    //document.images:页面上所有图片的集合
+    var img1 = new Image();
+    var img2 = new Image();
+    var img3 = new Image();
+    var img4 = new Image();
+    var img5 = new Image();
+    var img6 = new Image();
+    img1.src = "img/yeah_01.jpg";
+    img2.src = "img/Cheems.jpg";
+    img3.src = "img/BuffDoge.jpg";
+    img4.src = "img/popCat1.jpg";
+    img5.src = "img/popCat2.jpg";
+    img6.src = "img/popCatZ.jpg";
+  }
+}
+preload();
 
 var canvasEl = document.querySelector(".fireworks");
 var ctx = canvasEl.getContext("2d");
