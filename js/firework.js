@@ -7,7 +7,7 @@ if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
 }
 function detectOrient() {
   if (Math.abs(window.orientation) === 90) {
-    $("#mainContent").attr("class", "mainContent1");
+    $("#mainContent").attr("class", "mainContent_mobile_h");
   } else {
     $("#mainContent").attr("class", "mainContent_mobile");
   }

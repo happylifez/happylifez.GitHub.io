@@ -80,13 +80,47 @@
             top: 100%;
             z-index: 801;
         }
+
+        
+
+
+        .mainContent_mobile_h .dialogueClass {
+            position: absolute;
+            font-size: 2em;
+            left: 90%;
+            top: 10%;
+            padding: 20px;
+            width: 50%;
+            max-width: 400px;
+        }
+
+        .mainContent_mobile_h #mainImg {
+            position: relative;
+            mix-blend-mode: multiply;
+            left: 5%;
+            top: -5%;
+            width: 30%;
+        }
+
+
+        .mainContent_mobile_h .dialogueClass::before {
+            content: '';
+            position: absolute;
+            border: 1.2em solid;
+            border-color: transparent #8a2be2eb transparent transparent;
+            left: -2.4em;
+            top: 20%;
+            z-index: 801;
+        }
+
+
     </style>
 </head>
 
 <body style="background-color: #e6e7dbc9;">
     <canvas class="fireworks" style="position: absolute;z-index: 803;"></canvas>
 
-    <div id="mainContent" class="mainContent1">
+    <div id="mainContent" class="mainContent_mobile_h">
         <div id="dialogue" class="dialogueClass">
             <p id="dialogueContent">🎂🎂🎂🎂🎂🎂<br>多元宇宙最靓阿啾<br>生日快乐！！！</p>
         </div>
