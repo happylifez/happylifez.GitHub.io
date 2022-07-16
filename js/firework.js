@@ -22,12 +22,12 @@ function preload() {
     var img4 = new Image();
     var img5 = new Image();
     var img6 = new Image();
-    img1.src = "img/yeah_01.jpg";
-    img2.src = "img/Cheems.jpg";
-    img3.src = "img/BuffDoge.jpg";
-    img4.src = "img/popCat1.jpg";
-    img5.src = "img/popCat2.jpg";
-    img6.src = "img/popCatZ.jpg";
+    img1.src = "https://s1.328888.xyz/2022/07/16/NG310.jpg";
+    img2.src = "https://s1.328888.xyz/2022/07/16/NGmdE.jpg";
+    img3.src = "https://s1.328888.xyz/2022/07/16/NGltk.jpg";
+    img4.src = "https://s1.328888.xyz/2022/07/16/NGOfw.jpg";
+    img5.src = "https://s1.328888.xyz/2022/07/16/NGjYi.jpg";
+    img6.src = "https://s1.328888.xyz/2022/07/16/NG6en.jpg";
   }
 }
 preload();

@@ -1,8 +1,8 @@
 var contentParams = [
   {
     theme: "yeah",
-    imgUrl: "img/yeah_01.jpg",
-    imgUrl_final: "img/yeah_01.jpg",
+    imgUrl: "https://s1.328888.xyz/2022/07/16/NG310.jpg",
+    imgUrl_final: "https://s1.328888.xyz/2022/07/16/NG310.jpg",
     dialogStr: "WaYaaaaaaaaa!<br>多元宇宙最靓阿啾<br>生日快乐！！！",
     dialogType: "typing",
     dialogColor: "#8a2be2eb",
@@ -11,8 +11,8 @@ var contentParams = [
   },
   {
     theme: "Cheems",
-    imgUrl: "img/Cheems.jpg",
-    imgUrl_final: "img/BuffDoge.jpg",
+    imgUrl: "https://s1.328888.xyz/2022/07/16/NGmdE.jpg",
+    imgUrl_final: "https://s1.328888.xyz/2022/07/16/NGltk.jpg",
     dialogStr: "1551...<br>这就是Lucky锦鲤鲤大人吗？<br>好强大！",
     dialogType: "typing",
     dialogColor: "#8a2be2eb",
@@ -21,9 +21,9 @@ var contentParams = [
   },
   {
     theme: "popCat",
-    imgUrl: "img/popCat1.jpg",
-    imgUrl2: "img/popCat2.jpg",
-    imgUrl_final: "img/popCatZ.jpg",
+    imgUrl: "https://s1.328888.xyz/2022/07/16/NGOfw.jpg",
+    imgUrl2: "https://s1.328888.xyz/2022/07/16/NGjYi.jpg",
+    imgUrl_final: "https://s1.328888.xyz/2022/07/16/NG6en.jpg",
     dialogStr: "mew!Mew!Meeeew!<br>是谁比Pop Cat还可爱？<br>是阿啾！",
     dialogType: "typing",
     dialogColor: "#8a2be2eb",
@@ -109,4 +109,3 @@ function typing() {
     }
   }
 }
-
