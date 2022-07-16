@@ -13,7 +13,7 @@ var contentParams = [
     theme: "Cheems",
     imgUrl: "img/Cheems.jpg",
     imgUrl_final: "img/BuffDoge.jpg",
-    dialogStr: "1551...<br>这就是最Lucky锦鲤鲤大人吗？<br>好强大！",
+    dialogStr: "1551...<br>这就是Lucky锦鲤鲤大人吗？<br>好强大！",
     dialogType: "typing",
     dialogColor: "#8a2be2eb",
     fontColor: "#fff",
@@ -110,4 +110,3 @@ function typing() {
   }
 }
 
-function doNothing(contentParam) {}

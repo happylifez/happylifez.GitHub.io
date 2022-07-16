@@ -1,5 +1,19 @@
 window.human = false;
 
+if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+  detectOrient();
+} else {
+  $("#mainContent").attr("class", "mainContent1");
+}
+function detectOrient() {
+  if (Math.abs(window.orientation) === 90) {
+    $("#mainContent").attr("class", "mainContent1");
+  } else {
+    $("#mainContent").attr("class", "mainContent_mobile");
+  }
+}
+window.addEventListener("orientationchange", detectOrient);
+
 var canvasEl = document.querySelector(".fireworks");
 var ctx = canvasEl.getContext("2d");
 var numberOfParticules = 30;
